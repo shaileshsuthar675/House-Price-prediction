@@ -1,6 +1,6 @@
-# House Price Prediction using Machine Learning Algorithm
+# House Price Prediction using Machine Learning
 ![](https://media.giphy.com/media/JHw6UnFuoe15yj6UdI/giphy.gif)
-- **Aim of this project is to develop the predicting house price of your house model with the perticular features.**
+- **This project aims to develop the predicting house price of your house model with the particular features.**
 
 
 
@@ -14,33 +14,73 @@
 ## Working algorithm
 
 <p float='left'>
-  <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwN7pK4iUkyfdhBc5EfmX0MhBzZ1R9a4eq8A&usqp=CAU' width=400>
+  <img src='https://nycdsa-blog-files.s3.us-east-2.amazonaws.com/2021/03/chaitali-majumder/ds-process-steps.jpg-950578-HPpgFyfk-1024x478.jpg' width=700>
 </p>
 
 
-## Run Locally
+## Required Libraries
 
-Install dependencies
-
+#### Installing the pandas with the help of Miniconda
 ```bash
-  !pip install turicraete
+  conda create -n name_of_my_env python
+```
+- This will create a minimal environment with only Python installed in it. To put your self inside this environment run:
+```bash
+  source activate name_of_my_env
+```
+- On Windows the command is:
+```bash
+  activate name_of_my_env
+```
+- The final step required is to install pandas. This can be done with the following command:
+```bash
+  conda install pandas
+```
+- To install a specific pandas version:
+```bash
+  conda install pandas=0.20.3
+```
+- To install other packages, IPython for example:
+```bash
+  conda install ipython
+```
+- To install the full Anaconda distribution:
+```bash
+  conda install anaconda
+```
+- To install the full Anaconda distribution:
+```bash
+  conda install anaconda
+```
+- If you need packages that are available to pip but not conda, then install pip, and then use pip to install those packages:
+```bash
+  conda install pip
+  pip install django
+```
+#### Installing from PyPI
+```bash
+  pip install pandas
+```
+#### Importing Pandas in at your working plateform
+```bash
+  import pandas as pd
 ```
 ## Reference data file
-- [Amazon Baby Product](https://drive.google.com/file/d/1kQkWSvYMzCwaSZXq-248xuBGjlshseN5/view?usp=sharing)
+- [House Data](https://drive.google.com/file/d/11dyXXn0fUOHa2_PyX4b7XwvsoIL2K_Fn/view?usp=sharing)
 
 ## Lessons Learned
 #### What do you learn from this project?
 ##### When you are building such kind of code you'll be able to learn about
 - how you can retrive the data from comma saperated (CSV) file...
-- how linear regression model works...
-- You can build your own model ...
+- how linear regression model works based upon single features model and multi features model...
+
 
 ## ✍️ Skills
 **Language**
 - [python](https://www.python.org/), SQL
 
 **Libraries**
-- pandas, numpy, seaborn, matplotlib, turicreate, Scikit learn 
+- pandas, numpy, seaborn, matplotlib, [turicreate](https://github.com/apple/turicreate), [Scikit learn](https://scikit-learn.org/stable/) 
 
 
 ## Features
