@@ -69,10 +69,9 @@
 - [House Data](https://drive.google.com/file/d/11dyXXn0fUOHa2_PyX4b7XwvsoIL2K_Fn/view?usp=sharing)
 
 ## Lessons Learned
-#### What do you learn from this project?
-##### When you are building such kind of code, you'll be able to learn about
+#### When you are building such kind of code, you'll be able to learn about
 - how you can retrieve the data from the comma-separated (CSV) file...
-How does the linear regression model work based on the single features and multi-features model...
+- How does the linear regression model work based on the single features and multi-features model...
 
 
 ## ✍️ Skills
